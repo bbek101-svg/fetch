@@ -1,3 +1,9 @@
+import Article from "../components/Article";
+
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <Article />
+    </div>
+  );
 }
